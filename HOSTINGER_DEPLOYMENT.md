@@ -249,10 +249,3 @@ Renove o certificado manualmente:
 ```bash
 certbot renew
 ```
-
-## Suporte
-
-Para mais informações sobre Hostinger VPS, consulte a documentação oficial:
-https://www.hostinger.com/help
-
-Para dúvidas sobre o projeto, abra uma issue no repositório GitHub.
