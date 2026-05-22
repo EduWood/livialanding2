@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 
 const WA_NUMBER = '5561999231379'
+const WA_MESSAGE = 'Olá! Gostaria de testar o Zap Notas para emitir notas de graça.'
 
 export function CtaFinal() {
   return (
@@ -39,7 +40,7 @@ export function CtaFinal() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <motion.a
-                href={`https://wa.me/${WA_NUMBER}`}
+                href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(WA_MESSAGE)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.03, boxShadow: '0 0 50px rgba(18,191,0,0.5)' }}
