@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { WhatsAppMock } from './WhatsAppMock'
 
 const WA_NUMBER = '5561999231379'
+const WA_MESSAGE = 'Oi, quero testar a emissão de nota pelo Whatsapp'
 
 export function WhatsAppSection() {
   return (
